@@ -1,0 +1,151 @@
+@import "colors";
+
+@media screen and (max-width:992px){
+    .home3{
+        height:130vh;
+        > div{
+            height: 120vh;
+        }
+
+    }
+    .contact > main{
+        height:200vh;
+        width:100%;
+        border-radius: 0;
+        > h1{
+            text-align: center;
+        }
+        
+    }
+}
+//responsiveness for phone
+
+@media screen and (max-width:600px){
+    body{
+        background-color: $second;
+    }
+    
+
+    
+    
+    
+    nav{
+    position:fixed;
+    top:0;
+
+        >h1{
+            display: none;
+        }
+        >main{
+            width:100%;
+            justify-content: center;
+            a{
+                margin: 0.5rem;
+            }
+        }
+    }
+
+    
+    .home{
+        width:100%;
+        padding-left: 20px;
+        
+    }>main{
+        align-items: center;
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    .home2{
+        height: 70vh;
+        flex-direction: column;
+       margin-top: -175px;
+
+        
+        
+        img{
+            width:100%;
+        }
+        > div{
+            width:100%;
+            margin-bottom:5rem;
+        }
+    }
+    .home3{
+        
+        
+        > div{
+            
+            
+            
+        
+            padding:2rem;
+            margin-top:10rem;
+        height:unset; 
+        width:100%;
+        border-radius:0 200px 200px 0px;
+        >p{
+            padding:0.2rem;
+            font-size: 0.9rem;
+        }
+    
+    }
+
+    }
+    .home4{
+        >div{
+            height: unset;
+            width:100%;
+        border-radius:0 200px 200px 0px;
+            
+        }
+    }
+
+    .contact>main{
+        height:100vh;
+        border-radius: 50px;
+    
+    >form{
+        width:80%;
+        >div{
+            height:9vh;
+            display: flex;
+            flex-direction: column;
+            >label{
+                margin:0.5rem;
+            }
+            >input{
+                width:96%;
+            }
+        }
+        button{
+            width:90px;
+        }
+               }
+    }
+    footer{
+        background-color: $second;
+        color:azure;
+        div{
+            div{
+                a{
+                    color: aliceblue;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        div{
+            padding-left: 20px;
+        }
+        
+        
+    
+    }
+    .service{
+        height:70vh;
+    }
+    }
+
+
+
